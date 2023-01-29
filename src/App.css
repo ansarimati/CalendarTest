@@ -1,0 +1,69 @@
+body {
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Box {
+  background-color: #777;
+  color: #FFF;
+  height: 120px;
+  width: 120px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: bold;
+  color: aquamarine;
+}
+
+.event {
+  font-size: 12px;
+  max-height: 50px;
+  overflow-y: auto;
+}
+
+.event div {
+  margin-bottom: 5px;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+}
+
+select, option {
+  border: 2px solid skyblue;
+    border-radius: 16px;
+    width: 75px;
+    height: 35px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.country-dropdown {
+  width: 150px;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+}
